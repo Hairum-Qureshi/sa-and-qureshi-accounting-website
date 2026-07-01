@@ -63,7 +63,7 @@ const services: Service[] = [
 
 export default function Services() {
   return (
-    <div className="my-10">
+    <div className="my-10" id="services">
       <h3 className="text-lg font-semibold text-blue-500 text-center mt-5">
         SERVICES
       </h3>
