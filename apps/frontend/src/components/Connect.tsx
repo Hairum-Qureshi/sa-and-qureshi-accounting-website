@@ -5,8 +5,8 @@ import ConnectForm from "./ConnectForm";
 
 export default function Connect() {
   return (
-    <div className="flex p-20 bg-[#f0f6fd]" id="connect">
-      <div className="w-1/2">
+    <div className="lg:flex p-20 bg-[#f0f6fd]" id="connect">
+      <div className="lg:w-1/2 w-full">
         <h3 className="text-lg font-semibold text-blue-500 mt-5">
           LET'S CONNECT
         </h3>
@@ -45,7 +45,7 @@ export default function Connect() {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="lg:w-1/2 w-full lg:pl-20 mt-10 lg:mt-0">
         <h3 className="text-xl font-semibold mt-5 mb-3">Send us a message</h3>
         <p className="text-gray-500 text-base mb-5">
           Have a question or need assistance? Fill out the form below and we'll
