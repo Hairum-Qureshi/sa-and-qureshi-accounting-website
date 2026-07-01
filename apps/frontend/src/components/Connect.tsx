@@ -1,0 +1,58 @@
+import { FaCircleUser } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
+import ConnectForm from "./ConnectForm";
+
+export default function Connect() {
+  return (
+    <div className="flex p-20 bg-[#f0f6fd]" id="connect">
+      <div className="w-1/2">
+        <h3 className="text-lg font-semibold text-blue-500 mt-5">
+          LET'S CONNECT
+        </h3>
+        <h1 className="text-3xl font-bold mt-2">We'd love to help you out!</h1>
+        <div className="w-1/4 text-center h-1 bg-blue-500 mt-2" />
+        <div className="mt-10">
+          <h3 className="text-lg font-semibold text-blue-500 mt-5">
+            CONTACT INFORMATION
+          </h3>
+          <div className="flex items-center gap-2 mt-4">
+            <span className="flex-row items-center text-3xl text-blue-500">
+              <FaCircleUser />
+            </span>
+            <div>
+              <p>Saqlain Muhammad Qureshi</p>
+              <p className="text-gray-500 text-sm">Proprietor</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 mt-4">
+            <span className="flex-row items-center text-3xl bg-blue-500 text-white p-2 rounded-full w-8 h-8">
+              <FaPhoneAlt />
+            </span>
+            <div>
+              <p>(302)-465-6450</p>
+              <p className="text-gray-500 text-sm">Call/Text</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 mt-4">
+            <span className="flex-row items-center text-3xl bg-blue-500 text-white p-2 rounded-full w-8 h-8">
+              <MdMail />
+            </span>
+            <div>
+              <p>qureshis.tax.services@gmail.com</p>
+              <p className="text-gray-500 text-sm">Email</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-1/2">
+        <h3 className="text-xl font-semibold mt-5 mb-3">Send us a message</h3>
+        <p className="text-gray-500 text-base mb-5">
+          Have a question or need assistance? Fill out the form below and we'll
+          get back to you as soon as possible.
+        </p>
+        <ConnectForm />
+      </div>
+    </div>
+  );
+}
