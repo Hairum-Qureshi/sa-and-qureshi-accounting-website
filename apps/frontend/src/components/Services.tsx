@@ -69,7 +69,7 @@ export default function Services() {
       </h3>
       <h1 className="text-2xl font-bold text-center mt-2">How We Can Help</h1>
       <div className="w-10 h-1 bg-blue-500 mx-auto mt-2" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 mx-30">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 lg:mx-30 mx-15">
         {services.map((service, index) => (
           <div
             key={index}
