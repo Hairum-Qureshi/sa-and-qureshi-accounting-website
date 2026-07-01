@@ -2,8 +2,8 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <div className="bg-[#f0f6fd] p-15 flex">
-      <div className="w-1/2 mx-8">
+    <div className="bg-[#f0f6fd] p-15 lg:flex">
+      <div className="w-full lg:w-1/2 lg:mx-8">
         <h3 className="text-lg font-semibold text-blue-500">
           PROFESSIONAL. RELIABLE. TRUSTED.
         </h3>
@@ -27,7 +27,7 @@ export default function Header() {
           Get in Touch
         </button>
       </div>
-      <div className="flex-1 mx-8 text-lg">
+      <div className="flex-1 mx-8 text-lg lg:my-0 my-10">
         <h3 className="font-semibold text-blue-500">
           WE'RE HERE TO HELP WITH...
         </h3>
