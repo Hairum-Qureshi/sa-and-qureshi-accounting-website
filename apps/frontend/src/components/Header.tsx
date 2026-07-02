@@ -16,7 +16,7 @@ export default function Header() {
             SA Accounting & Qureshi's Tax Accounting Services
           </b>{" "}
           are here to help you with personalized and reliable services for you,
-          your business, your family, and your friends.
+          your business, family, and friends.
         </p>
         <button
           className="bg-green-500 text-white hover:cursor-pointer px-4 py-2 rounded mt-4 hover:bg-green-600 transition-colors duration-300"
