@@ -21,8 +21,17 @@ export default function Connect() {
               <FaCircleUser />
             </span>
             <div>
+              <p>Shahid Sheikh</p>
+              <p className="text-gray-500 text-sm">Accountant</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 mt-4">
+            <span className="flex-row items-center text-3xl text-blue-500">
+              <FaCircleUser />
+            </span>
+            <div>
               <p>Saqlain Muhammad Qureshi</p>
-              <p className="text-gray-500 text-sm">Proprietor</p>
+              <p className="text-gray-500 text-sm">Accountant</p>
             </div>
           </div>
           <div className="flex items-center gap-2 mt-4">
@@ -30,8 +39,8 @@ export default function Connect() {
               <FaPhoneAlt />
             </span>
             <div>
-              <p>(302)-465-6450</p>
-              <p className="text-gray-500 text-sm">Call/Text</p>
+              <p>Shahid: (302)-397-7448</p>
+              <p>Saqlain: (302)-465-6450</p>
             </div>
           </div>
           <div className="flex items-center gap-2 mt-4">
@@ -40,7 +49,7 @@ export default function Connect() {
             </span>
             <div>
               <p>qureshis.tax.services@gmail.com</p>
-              <p className="text-gray-500 text-sm">Email</p>
+              <p>saaccounting.us@yahoo.com</p>
             </div>
           </div>
         </div>
