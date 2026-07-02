@@ -13,7 +13,7 @@ export default function Header() {
         <p className="text-lg mt-4">
           SA Accounting & Qureshi's Tax Accounting Services are here to help you
           with personalized and reliable services for you, your family, and your
-          business.
+          friends.
         </p>
         <button
           className="bg-blue-500 text-white hover:cursor-pointer px-4 py-2 rounded mt-4 hover:bg-blue-600 transition-colors duration-300"
