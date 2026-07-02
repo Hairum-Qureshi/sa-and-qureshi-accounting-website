@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# SA & Qureshi Tax Accounting Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern single-page website built for my dad and his friend's tax accounting business. The site serves as their online presence, providing information about their services and allowing prospective clients to get in touch through a contact form.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-## React Compiler
+## Contact Form
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+The contact form is powered by **Formcarry**, allowing visitors to submit inquiries without requiring a custom backend.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Node.js 20+ (recommended)
+- npm
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Start the Development Server
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+## Project Structure
+
+```text
+src/
+├── assets/        # Images, icons, and other static assets
+├── components/    # Reusable UI components
+├── pages/         # Page sections/views
+├── hooks/         # Custom React hooks
+├── lib/           # Shared utilities
+├── styles/        # Global styles
+└── main.tsx       # Application entry point
+```
+
+## Available Scripts
+
+| Command           | Description                         |
+| ----------------- | ----------------------------------- |
+| `npm run dev`     | Starts the Vite development server  |
+| `npm run build`   | Creates a production build          |
+| `npm run preview` | Serves the production build locally |
+| `npm run lint`    | Runs ESLint                         |
+
+## Features
+
+- Responsive, mobile-first design
+- Fast single-page application (SPA)
+- Type-safe development with TypeScript
+- Styled with Tailwind CSS
+- Contact form powered by Formcarry
+- Optimized production build with Vite
