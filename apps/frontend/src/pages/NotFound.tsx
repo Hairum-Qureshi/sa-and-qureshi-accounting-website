@@ -25,10 +25,6 @@ export default function NotFound() {
             Back to Home
           </Link>
         </div>
-
-        <div className="mt-10 border-t border-slate-200 pt-6 text-sm text-slate-500">
-          SA Accounting &amp; Qureshi's Tax Accounting Services
-        </div>
       </div>
     </main>
   );
