@@ -53,7 +53,7 @@ export default function ConnectForm() {
         <div>
           <input
             type="text"
-            placeholder="Your First Name*"
+            placeholder="Your First Name *"
             required
             className="border bg-white border-green-500 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-green-500"
             value={firstName}
