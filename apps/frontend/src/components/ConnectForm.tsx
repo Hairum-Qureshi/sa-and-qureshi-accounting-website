@@ -54,6 +54,7 @@ export default function ConnectForm() {
           <input
             type="text"
             placeholder="Your First Name*"
+            required
             className="border bg-white border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
@@ -64,6 +65,7 @@ export default function ConnectForm() {
           <input
             type="text"
             placeholder="Your Last Name"
+            required
             className="border bg-white border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
@@ -73,6 +75,7 @@ export default function ConnectForm() {
       <input
         type="email"
         placeholder="Email Address *"
+        required
         className="border bg-white border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
@@ -84,6 +87,7 @@ export default function ConnectForm() {
         <select
           className="bg-white px-3 py-2 w-full outline-none focus:outline-none focus:ring-0"
           value={service}
+          required
           onChange={(e) => setService(e.target.value)}
         >
           <option value="">--- Select Service ---</option>
@@ -100,6 +104,7 @@ export default function ConnectForm() {
           placeholder="Your Message"
           className="border-0 bg-white rounded px-3 h-32 resize-none outline-none focus:outline-none focus:ring-0"
           maxLength={1000}
+          required
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
