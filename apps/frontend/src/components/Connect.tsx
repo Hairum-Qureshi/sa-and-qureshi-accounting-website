@@ -29,7 +29,7 @@ export default function Connect() {
               <p>Saqlain Muhammad Qureshi</p>
               <p>(302)-465-6450</p>
               <p>qureshis.tax.services@gmail.com</p>
-              <p className="text-gray-500 text-sm">Accountant</p>
+              <p className="text-gray-500 text-sm">Tax Preparer</p>
             </div>
           </div>
         </div>
