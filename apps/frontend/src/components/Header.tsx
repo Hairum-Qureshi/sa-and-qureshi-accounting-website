@@ -11,8 +11,8 @@ export default function Header() {
           Accounting & Tax <br /> Solutions You Can Trust
         </h1>
         <p className="text-lg mt-4">
-          SA & Qureshi's Tax Accounting Services is here to help you with
-          personalized and reliable services fro you, your family, and your
+          SA Accounting & Qureshi's Tax Accounting Services are here to help you
+          with personalized and reliable services for you, your family, and your
           business.
         </p>
         <button
