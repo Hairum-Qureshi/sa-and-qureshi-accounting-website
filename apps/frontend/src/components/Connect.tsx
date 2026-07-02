@@ -1,6 +1,3 @@
-import { FaCircleUser } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
 import ConnectForm from "./ConnectForm";
 
 export default function Connect() {
@@ -17,39 +14,22 @@ export default function Connect() {
             CONTACT INFORMATION
           </h3>
           <div className="flex items-center gap-2 mt-4">
-            <span className="flex-row items-center text-3xl text-blue-500">
+            {/* <span className="flex-row items-center text-3xl text-blue-500">
               <FaCircleUser />
-            </span>
+            </span> */}
             <div>
               <p>Shahid Sheikh</p>
+              <p>(302)-397-7448</p>
+              <p>saaccounting.us@yahoo.com</p>
               <p className="text-gray-500 text-sm">Accountant</p>
             </div>
           </div>
           <div className="flex items-center gap-2 mt-4">
-            <span className="flex-row items-center text-3xl text-blue-500">
-              <FaCircleUser />
-            </span>
             <div>
               <p>Saqlain Muhammad Qureshi</p>
-              <p className="text-gray-500 text-sm">Accountant</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 mt-4">
-            <span className="flex-row items-center text-3xl bg-blue-500 text-white p-2 rounded-full w-8 h-8">
-              <FaPhoneAlt />
-            </span>
-            <div>
-              <p>Shahid: (302)-397-7448</p>
-              <p>Saqlain: (302)-465-6450</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 mt-4">
-            <span className="flex-row items-center text-3xl bg-blue-500 text-white p-2 rounded-full w-8 h-8">
-              <MdMail />
-            </span>
-            <div>
+              <p>(302)-465-6450</p>
               <p>qureshis.tax.services@gmail.com</p>
-              <p>saaccounting.us@yahoo.com</p>
+              <p className="text-gray-500 text-sm">Accountant</p>
             </div>
           </div>
         </div>
