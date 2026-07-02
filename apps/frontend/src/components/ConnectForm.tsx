@@ -55,7 +55,7 @@ export default function ConnectForm() {
             type="text"
             placeholder="Your First Name*"
             required
-            className="border bg-white border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border bg-white border-green-500 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-green-500"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
           />
@@ -66,7 +66,7 @@ export default function ConnectForm() {
             type="text"
             placeholder="Your Last Name"
             required
-            className="border bg-white border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border bg-white border-green-500 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-green-500"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
           />
@@ -76,11 +76,11 @@ export default function ConnectForm() {
         type="email"
         placeholder="Email Address *"
         required
-        className="border bg-white border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="border bg-white border-green-500 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-green-500"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <div className="flex flex-col border border-gray-300 active:border-blue-500 rounded focus-within:ring-2 focus-within:ring-blue-500">
+      <div className="flex flex-col border border-green-500 active:border-green-500 rounded focus-within:ring-2 focus-within:ring-green-500">
         <label className="px-3 py-2 text-gray-500 bg-white">
           Service You Need<span className="text-red-500 ml-1">*</span>
         </label>
@@ -96,7 +96,7 @@ export default function ConnectForm() {
           <option value="consulting">Business Consulting</option>
         </select>
       </div>
-      <div className="flex flex-col border border-gray-300 active:border-blue-500 rounded focus-within:ring-2 focus-within:ring-blue-500">
+      <div className="flex flex-col border border-green-500 active:border-green-500 rounded focus-within:ring-2 focus-within:ring-green-500">
         <label className="px-3 py-2 text-gray-500 bg-white">
           Message<span className="text-red-500 ml-1">*</span>
         </label>
@@ -114,7 +114,7 @@ export default function ConnectForm() {
       </p>
       <button
         type="submit"
-        className="bg-blue-500 text-white hover:cursor-pointer px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300"
+        className="bg-green-500 text-white hover:cursor-pointer px-4 py-2 rounded hover:bg-green-600 transition-colors duration-300"
       >
         Send Message
       </button>
