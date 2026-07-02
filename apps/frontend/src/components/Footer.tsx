@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-sky-950 text-white">
       <div className="mx-auto flex h-16 items-center justify-between px-6">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} SA & Qureshi's Tax Accounting
+          &copy; {new Date().getFullYear()} SA Accounting & Qureshi's Tax Accounting
           Services. All rights reserved.
         </p>
 
