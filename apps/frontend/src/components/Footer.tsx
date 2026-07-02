@@ -2,11 +2,11 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-sky-950 text-white">
+    <footer className="bg-green-950 text-white">
       <div className="mx-auto flex h-16 items-center justify-between px-6">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} SA Accounting & Qureshi's Tax Accounting
-          Services. All rights reserved.
+          &copy; {new Date().getFullYear()} SA Accounting & Qureshi's Tax
+          Accounting Services. All rights reserved.
         </p>
 
         <a
