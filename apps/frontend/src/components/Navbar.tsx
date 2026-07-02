@@ -2,12 +2,8 @@ import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   return (
-    <div className="p-4 flex items-center w-full h-20">
-      <div className="flex flex-col items-start text-xl font-semibold text-blue-500">
-        <h3>SA Accounting & Qureshi's</h3>
-        <h3>Tax Accounting Services</h3>
-      </div>
-      <div className="flex flex-row items-center ml-auto space-x-4 text-base text-blue-600 font-semibold">
+    <div className="p-4 flex items-center w-full h-15 bg-green-700">
+      <div className="flex flex-row items-center ml-auto space-x-4 text-base text-white font-semibold">
         <HashLink
           smooth
           to="#services"
