@@ -12,9 +12,9 @@ export default function Header() {
           Accounting & Tax <br /> Solutions You Can Trust
         </h1>
         <p className="text-lg mt-4">
-          <b className="text-2xl">
+          <span className="text-2xl font-bold text-green-700">
             SA Accounting & Qureshi's Tax Accounting Services
-          </b>{" "}
+          </span>{" "}
           are here to help you with personalized and reliable services for you,
           your business, family, and friends.
         </p>
