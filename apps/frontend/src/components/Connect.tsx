@@ -21,6 +21,7 @@ export default function Connect() {
               <p>Shahid Sheikh</p>
               <p>(302)-397-7448</p>
               <p>saaccounting.us@yahoo.com</p>
+              <p>saaccounting-us.com</p>
               <p className="text-gray-500 text-sm">Accountant</p>
             </div>
           </div>
@@ -29,6 +30,7 @@ export default function Connect() {
               <p>Saqlain Muhammad Qureshi</p>
               <p>(302)-465-6450</p>
               <p>qureshis.tax.services@gmail.com</p>
+              <p>qureshis-tax-services.com</p>
               <p className="text-gray-500 text-sm">Tax Preparer</p>
             </div>
           </div>
