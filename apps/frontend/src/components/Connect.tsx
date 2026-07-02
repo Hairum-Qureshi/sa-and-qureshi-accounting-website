@@ -2,15 +2,15 @@ import ConnectForm from "./ConnectForm";
 
 export default function Connect() {
   return (
-    <div className="lg:flex p-20 bg-[#f0f6fd]" id="connect">
+    <div className="lg:flex p-20 bg-green-100" id="connect">
       <div className="lg:w-1/2 w-full">
-        <h3 className="text-lg font-semibold text-blue-500 mt-5">
+        <h3 className="text-lg font-semibold text-green-500 mt-5">
           LET'S CONNECT
         </h3>
         <h1 className="text-3xl font-bold mt-2">We'd love to help you out!</h1>
-        <div className="w-1/4 text-center h-1 bg-blue-500 mt-2" />
+        <div className="w-1/4 text-center h-1 bg-green-500 mt-2" />
         <div className="mt-10">
-          <h3 className="text-lg font-semibold text-blue-500 mt-5">
+          <h3 className="text-lg font-semibold text-green-500 mt-5">
             CONTACT INFORMATION
           </h3>
           <div className="flex items-center gap-2 mt-4">
