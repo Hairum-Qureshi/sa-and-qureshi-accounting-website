@@ -9,13 +9,13 @@ export default function Header() {
           PROFESSIONAL. RELIABLE. TRUSTED.
         </h3>
         <h1 className="text-6xl font-bold leading-14">
-          Accounting & Tax <br /> Solutions You Can Trust
+          SA Accounting & Tax <br /> Solutions You Can Trust
         </h1>
         <p className="text-lg mt-4">
           <span className="text-2xl font-bold text-green-700">
             SA Accounting & Qureshi's Tax Accounting Services
           </span>{" "}
-          are here to help you with personalized and reliable services for you,
+          are sister concerns, and we are here to help you with personalized and reliable services for you,
           your business, family, and friends.
         </p>
         <button
