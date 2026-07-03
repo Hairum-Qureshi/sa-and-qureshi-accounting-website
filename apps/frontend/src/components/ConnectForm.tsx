@@ -37,6 +37,30 @@ export default function ConnectForm() {
           setError(res.data.message);
         }
       });
+
+    axios
+      .post(
+        "https://formcarry.com/s/itSCjBMkMMc",
+        {
+          firstName,
+          lastName,
+          email,
+          service,
+          message,
+        },
+        {
+          headers: {
+            Accept: "application/json",
+          },
+        },
+      )
+      .then((res) => {
+        if (res.data.code === 200) {
+          setSubmitted(true);
+        } else {
+          setError(res.data.message);
+        }
+      });
   }
 
   useEffect(() => {
