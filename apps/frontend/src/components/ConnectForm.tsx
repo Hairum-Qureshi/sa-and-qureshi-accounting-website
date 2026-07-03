@@ -33,6 +33,12 @@ export default function ConnectForm() {
       .then((res) => {
         if (res.data.code === 200) {
           setSubmitted(true);
+
+          setFirstName("");
+          setLastName("");
+          setEmail("");
+          setService("");
+          setMessage("");
         } else {
           setError(res.data.message);
         }
@@ -57,6 +63,12 @@ export default function ConnectForm() {
       .then((res) => {
         if (res.data.code === 200) {
           setSubmitted(true);
+
+          setFirstName("");
+          setLastName("");
+          setEmail("");
+          setService("");
+          setMessage("");
         } else {
           setError(res.data.message);
         }
