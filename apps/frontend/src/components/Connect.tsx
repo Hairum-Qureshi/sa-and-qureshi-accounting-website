@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ConnectForm from "./ConnectForm";
 
 export default function Connect() {
@@ -14,14 +15,16 @@ export default function Connect() {
             CONTACT INFORMATION
           </h3>
           <div className="flex items-center gap-2 mt-4">
-            {/* <span className="flex-row items-center text-3xl text-blue-500">
-              <FaCircleUser />
-            </span> */}
             <div>
               <p>Shahid Sheikh</p>
               <p>(302)-397-7448</p>
               <p>saaccounting.us@yahoo.com</p>
-              <p>saaccounting-us.com</p>
+              <Link
+                to="/"
+                className="cursor-pointer hover:underline hover:text-green-800"
+              >
+                saaccounting-us.com
+              </Link>
               <p className="text-gray-500 text-sm">Accountant</p>
             </div>
           </div>
@@ -30,7 +33,12 @@ export default function Connect() {
               <p>Saqlain Muhammad Qureshi</p>
               <p>(302)-465-6450</p>
               <p>qureshis.tax.services@gmail.com</p>
-              <p>qureshis-tax-services.com</p>
+              <Link
+                to="/"
+                className="cursor-pointer hover:underline hover:text-green-800"
+              >
+                qureshis-tax-services.com
+              </Link>
               <p className="text-gray-500 text-sm">Tax Preparer</p>
             </div>
           </div>
