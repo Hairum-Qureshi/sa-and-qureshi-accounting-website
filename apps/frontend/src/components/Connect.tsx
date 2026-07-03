@@ -20,7 +20,7 @@ export default function Connect() {
               <p>(302)-397-7448</p>
               <p>saaccounting.us@yahoo.com</p>
               <Link
-                to="/"
+                to="https://saaccounting-us.com"
                 className="cursor-pointer hover:underline hover:text-green-800"
               >
                 saaccounting-us.com
@@ -34,7 +34,7 @@ export default function Connect() {
               <p>(302)-465-6450</p>
               <p>qureshis.tax.services@gmail.com</p>
               <Link
-                to="/"
+                to="https://qureshis-tax-services.com"
                 className="cursor-pointer hover:underline hover:text-green-800"
               >
                 qureshis-tax-services.com
