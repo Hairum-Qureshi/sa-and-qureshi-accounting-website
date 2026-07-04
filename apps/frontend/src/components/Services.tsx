@@ -24,7 +24,7 @@ const services: Service[] = [
     icon: <TbCircleNumber2Filled className="text-green-500" />,
     title: "Business & Corporate Tax Filing",
     description:
-      "Comprehensive business and corporate tax services to keep your business compliant and optimized as well as efficient processing for visa and passport applications.",
+      "Comprehensive business and corporate tax services to keep your business compliant, optimized, and financially efficient, along with streamlined visa and passport application processing.",
   },
   {
     icon: <TbCircleNumber3Filled className="text-green-500" />,
