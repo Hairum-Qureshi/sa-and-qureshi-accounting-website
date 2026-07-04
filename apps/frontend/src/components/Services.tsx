@@ -24,7 +24,7 @@ const services: Service[] = [
     icon: <TbCircleNumber2Filled className="text-green-500" />,
     title: "Business & Corporate Tax Filing",
     description:
-      "Comprehensive business and corporate tax services to keep your business compliant, optimized, and financially efficient, along with streamlined visa and passport application processing.",
+      "Comprehensive business and corporate tax services to keep your business compliant, and optimized.",
   },
   {
     icon: <TbCircleNumber3Filled className="text-green-500" />,
@@ -53,7 +53,7 @@ const services: Service[] = [
     icon: <TbCircleNumber7Filled className="text-green-500" />,
     title: "Book Keeping Services",
     description:
-      "Accurate and timely bookkeeping services to keep your financial records in order.",
+      "Accurate and timely bookkeeping services to keep your financial records in order, and financially efficient, along with streamlined visa and passport application processing.",
   },
   {
     icon: <TbCircleNumber8Filled className="text-green-500" />,
