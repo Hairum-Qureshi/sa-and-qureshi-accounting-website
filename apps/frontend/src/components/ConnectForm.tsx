@@ -128,8 +128,11 @@ export default function ConnectForm() {
         >
           <option value="">--- Select Service ---</option>
           <option value="tax">Tax Preparation</option>
-          <option value="accounting">Accounting Services</option>
+          <option value="book keeping and accounting services">
+            Book Keeping & Accounting Services
+          </option>
           <option value="consulting">Business Consulting</option>
+          <option value="document-processing">Document Processing</option>
         </select>
       </div>
       <div className="flex flex-col border border-green-500 active:border-green-500 rounded focus-within:ring-2 focus-within:ring-green-500">
