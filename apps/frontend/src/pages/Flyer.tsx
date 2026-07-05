@@ -1,3 +1,4 @@
+import Connect from "../components/Connect";
 import Header from "../components/Header";
 import Services from "../components/Services";
 
@@ -13,6 +14,7 @@ export default function Flyer() {
         showContactButton={false}
       />
       <Services showServiceDetails={false} />
+      <Connect hideForm={true} showDadDetailsOnly={true} hideJobTitle={true} />
     </div>
   );
 }
