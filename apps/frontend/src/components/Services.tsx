@@ -52,8 +52,10 @@ const services: Service[] = [
   {
     icon: <TbCircleNumber7Filled className="text-green-500" />,
     title: "Documents Processing",
-    description: `<ul><li>Fast and reliable processing of various documents</li>
-      <li>Professional assistance with your immigration needs.</li></ul>`,
+    description: `<ul class="list-disc pl-5">
+    <li>Fast and reliable processing of various documents.</li>
+    <li>Professional assistance with your immigration needs.</li>
+    </ul>`,
   },
 ];
 
