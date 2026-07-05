@@ -12,9 +12,10 @@ export default function Flyer() {
           "is here to help you with personalized and reliable services for you, your business, family, and friends"
         }
         showContactButton={false}
+        removeBackgroundColor={true}
       />
       <Services showServiceDetails={false} />
-      <Connect hideForm={true} showDadDetailsOnly={true} hideJobTitle={true} />
+      <Connect hideForm={true} showDadDetailsOnly={true} hideJobTitle={true} removeBackgroundColor={true} />
     </div>
   );
 }
