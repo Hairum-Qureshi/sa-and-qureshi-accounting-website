@@ -59,7 +59,11 @@ const services: Service[] = [
   },
 ];
 
-export default function Services() {
+export default function Services({
+  showServiceDetails = true,
+}: {
+  showServiceDetails?: boolean;
+}) {
   return (
     <div className="my-10" id="services">
       <h3 className="text-lg font-semibold text-green-500 text-center mt-5">
@@ -77,10 +81,12 @@ export default function Services() {
               <span className="text-4xl">{service.icon}</span>
               <h2 className="text-lg font-semibold ml-2">{service.title}</h2>
             </div>
-            <p
-              className="text-gray-600"
-              dangerouslySetInnerHTML={{ __html: service.description }}
-            ></p>
+            {showServiceDetails && (
+              <p
+                className="text-gray-600"
+                dangerouslySetInnerHTML={{ __html: service.description }}
+              ></p>
+            )}
           </div>
         ))}
       </div>
