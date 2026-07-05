@@ -12,7 +12,7 @@ export default function Flyer() {
         }
         showContactButton={false}
       />
-      <Services />
+      <Services showServiceDetails={true} />
     </div>
   );
 }
