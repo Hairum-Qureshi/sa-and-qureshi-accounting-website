@@ -54,7 +54,7 @@ const services: Service[] = [
     title: "Documents Processing",
     description: `<ul class="list-disc pl-5">
     <li>Fast and reliable processing of various documents.</li>
-    <li>Professional assistance with your immigration services and passport processing.</li>
+    <li>Professional assistance with your immigration and passport processing.</li>
     </ul>`,
   },
 ];
