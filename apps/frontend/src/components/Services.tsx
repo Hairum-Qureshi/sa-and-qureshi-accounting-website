@@ -5,7 +5,6 @@ import { TbCircleNumber4Filled } from "react-icons/tb";
 import { TbCircleNumber5Filled } from "react-icons/tb";
 import { TbCircleNumber6Filled } from "react-icons/tb";
 import { TbCircleNumber7Filled } from "react-icons/tb";
-import { TbCircleNumber8Filled } from "react-icons/tb";
 
 type Service = {
   icon: React.ReactNode;
@@ -46,19 +45,15 @@ const services: Service[] = [
   },
   {
     icon: <TbCircleNumber6Filled className="text-green-500" />,
-    title: "Immigration Services",
-    description: "Professional assistance with your immigration needs.",
-  },
-  {
-    icon: <TbCircleNumber7Filled className="text-green-500" />,
     title: "Book Keeping Services",
     description:
       "Accurate and timely bookkeeping services to keep your financial records in order, and financially efficient, along with streamlined visa and passport application processing.",
   },
   {
-    icon: <TbCircleNumber8Filled className="text-green-500" />,
+    icon: <TbCircleNumber7Filled className="text-green-500" />,
     title: "Documents Processing",
-    description: "Fast and reliable processing of various documents.",
+    description: `<ul><li>Fast and reliable processing of various documents</li>
+      <li>Professional assistance with your immigration needs.</li></ul>`,
   },
 ];
 
@@ -80,7 +75,10 @@ export default function Services() {
               <span className="text-4xl">{service.icon}</span>
               <h2 className="text-lg font-semibold ml-2">{service.title}</h2>
             </div>
-            <p className="text-gray-600">{service.description}</p>
+            <p
+              className="text-gray-600"
+              dangerouslySetInnerHTML={{ __html: service.description }}
+            ></p>
           </div>
         ))}
       </div>
