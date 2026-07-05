@@ -5,13 +5,15 @@ export default function Connect({
   hideForm = false,
   showDadDetailsOnly = false,
   hideJobTitle = false,
+  removeBackgroundColor = false,
 }: {
   hideForm?: boolean;
   showDadDetailsOnly?: boolean;
   hideJobTitle?: boolean;
+  removeBackgroundColor?: boolean;
 }) {
   return (
-    <div className="lg:flex p-20 bg-green-100" id="connect">
+    <div className={`lg:flex p-20 ${removeBackgroundColor ? "" : "bg-green-100"}`} id="connect">
       <div className="lg:w-1/2 w-full">
         <h3 className="text-lg font-semibold text-green-500 mt-5">
           LET'S CONNECT

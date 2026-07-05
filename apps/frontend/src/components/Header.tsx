@@ -5,15 +5,16 @@ export default function Header({
   showSAAccounting,
   updatedDesc,
   showContactButton = true,
+  removeBackgroundColor = false,
 }: {
   customTitle?: string;
   showSAAccounting?: boolean;
   updatedDesc?: string;
   showContactButton?: boolean;
+  removeBackgroundColor?: boolean;
 }) {
   return (
-    // <div className="bg-[#f0f6fd] p-15 lg:flex">
-    <div className="bg-green-100 p-15 lg:flex">
+    <div className={`${removeBackgroundColor ? "" : "bg-green-100"} p-15 lg:flex`}>
       <div className="w-full lg:w-1/2 lg:mx-8">
         <h3 className="text-lg font-semibold text-green-500">
           PROFESSIONAL. RELIABLE. TRUSTED.
