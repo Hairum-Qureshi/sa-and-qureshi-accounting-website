@@ -4,7 +4,7 @@ export default function Header({
   customTitle,
   showSAAccounting,
   updatedDesc,
-  showContactButton,
+  showContactButton = true,
 }: {
   customTitle?: string;
   showSAAccounting?: boolean;
