@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import ConnectForm from "./ConnectForm";
 
-export default function Connect() {
+export default function Connect({
+  hideForm = false,
+  showDadDetailsOnly = false,
+  hideJobTitle = false,
+}: {
+  hideForm?: boolean;
+  showDadDetailsOnly?: boolean;
+  hideJobTitle?: boolean;
+}) {
   return (
     <div className="lg:flex p-20 bg-green-100" id="connect">
       <div className="lg:w-1/2 w-full">
@@ -14,20 +22,22 @@ export default function Connect() {
           <h3 className="text-lg font-semibold text-green-500 mt-5">
             CONTACT INFORMATION
           </h3>
-          <div className="flex items-center gap-2 mt-4">
-            <div>
-              <p>Shahid Sheikh</p>
-              <p>(302)-397-7448</p>
-              <p>saaccounting.us@yahoo.com</p>
-              <Link
-                to="https://saaccounting-us.com"
-                className="cursor-pointer hover:underline hover:text-green-800"
-              >
-                saaccounting-us.com
-              </Link>
-              <p className="text-gray-500 text-sm">Accountant</p>
+          {!showDadDetailsOnly && (
+            <div className="flex items-center gap-2 mt-4">
+              <div>
+                <p>Shahid Sheikh</p>
+                <p>(302)-397-7448</p>
+                <p>saaccounting.us@yahoo.com</p>
+                <Link
+                  to="https://saaccounting-us.com"
+                  className="cursor-pointer hover:underline hover:text-green-800"
+                >
+                  saaccounting-us.com
+                </Link>
+                <p className="text-gray-500 text-sm">Accountant</p>
+              </div>
             </div>
-          </div>
+          )}
           <div className="flex items-center gap-2 mt-4">
             <div>
               <p>Saqlain Muhammad Qureshi</p>
@@ -39,19 +49,23 @@ export default function Connect() {
               >
                 qureshis-tax-services.com
               </Link>
-              <p className="text-gray-500 text-sm">Tax Preparer</p>
+              {!hideJobTitle && (
+                <p className="text-gray-500 text-sm">Accountant</p>
+              )}
             </div>
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2 w-full lg:pl-20 mt-10 lg:mt-0">
-        <h3 className="text-xl font-semibold mt-5 mb-3">Send us a message</h3>
-        <p className="text-gray-500 text-base mb-5">
-          Have a question or need assistance? Fill out the form below and we'll
-          get back to you as soon as possible.
-        </p>
-        <ConnectForm />
-      </div>
+      {!hideForm && (
+        <div className="lg:w-1/2 w-full lg:pl-20 mt-10 lg:mt-0">
+          <h3 className="text-xl font-semibold mt-5 mb-3">Send us a message</h3>
+          <p className="text-gray-500 text-base mb-5">
+            Have a question or need assistance? Fill out the form below and
+            we'll get back to you as soon as possible.
+          </p>
+          <ConnectForm />
+        </div>
+      )}
     </div>
   );
 }
