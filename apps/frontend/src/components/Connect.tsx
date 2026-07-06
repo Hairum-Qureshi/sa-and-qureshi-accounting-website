@@ -6,22 +6,31 @@ export default function Connect({
   showDadDetailsOnly = false,
   hideJobTitle = false,
   removeBackgroundColor = false,
+  changeTextColorToBlack = false,
 }: {
   hideForm?: boolean;
   showDadDetailsOnly?: boolean;
   hideJobTitle?: boolean;
   removeBackgroundColor?: boolean;
+  changeTextColorToBlack?: boolean;
 }) {
   return (
-    <div className={`lg:flex p-20 ${removeBackgroundColor ? "" : "bg-green-100"}`} id="connect">
+    <div
+      className={`lg:flex p-20 ${removeBackgroundColor ? "" : "bg-green-100"}`}
+      id="connect"
+    >
       <div className="lg:w-1/2 w-full">
-        <h3 className="text-lg font-semibold text-green-500 mt-5">
+        <h3
+          className={`text-lg font-semibold mt-5 ${changeTextColorToBlack ? "text-black" : "text-green-500"}`}
+        >
           LET'S CONNECT
         </h3>
         <h1 className="text-3xl font-bold mt-2">We'd love to help you out!</h1>
         <div className="w-1/4 text-center h-1 bg-green-500 mt-2" />
         <div className="mt-10">
-          <h3 className="text-lg font-semibold text-green-500 mt-5">
+          <h3
+            className={`text-lg font-semibold mt-5 ${changeTextColorToBlack ? "text-black" : "text-green-500"}`}
+          >
             CONTACT INFORMATION
           </h3>
           {!showDadDetailsOnly && (
