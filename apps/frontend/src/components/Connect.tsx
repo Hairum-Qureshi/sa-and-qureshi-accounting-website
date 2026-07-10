@@ -61,7 +61,7 @@ export default function Connect({
                 qureshis-tax-services.com
               </Link>
               {!hideJobTitle && (
-                <p className="text-gray-500 text-sm">Accountant</p>
+                <p className="text-gray-500 text-sm">Tax Professional</p>
               )}
             </div>
           </div>
