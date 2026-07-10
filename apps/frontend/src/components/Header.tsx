@@ -13,10 +13,10 @@ export default function Header() {
         </h1>
         <p className="text-lg mt-4 text-green-900">
           <span className="text-2xl font-bold text-green-700">
-            SA Accounting & Qureshi's Tax Accounting Services
+            SA Accounting & Qureshi's Tax Business Services
           </span>{" "}
-          are sister concerns, and we are here to help you with personalized
-          and reliable services for you, your business, family, and friends.
+          are sister concerns, and we are here to help you with personalized and
+          reliable services for you, your business, family, and friends.
         </p>
         <button
           className="bg-green-500 text-white hover:cursor-pointer px-4 py-2 rounded mt-4 hover:bg-green-600 transition-colors duration-300"
