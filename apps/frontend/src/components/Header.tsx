@@ -15,7 +15,7 @@ export default function Header() {
           <span className="text-2xl font-bold text-green-700">
             SA Accounting & Qureshi's Tax Accounting Services
           </span>{" "}
-          "are sister concerns, and we are here to help you with personalized
+          are sister concerns, and we are here to help you with personalized
           and reliable services for you, your business, family, and friends.
         </p>
         <button
