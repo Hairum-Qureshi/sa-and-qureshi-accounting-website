@@ -13,7 +13,7 @@ export default function Header() {
         </h1>
         <p className="text-lg mt-4 text-green-900">
           <span className="text-2xl font-bold text-green-700">
-            SA Accounting & Qureshi's Tax Business Services
+            SA Accounting & Qureshi's Tax Business and Services
           </span>{" "}
           are partner companies, and we are here to help you with personalized
           and reliable services for you, your business, family, and friends.
