@@ -17,37 +17,37 @@ const services: Service[] = [
     icon: <TbCircleNumber1Filled className="text-green-500" />,
     title: "Preparing and E-filing of Personal Tax Returns",
     description:
-      "<li>Accurate preparation and e-filing to ensure maximum refunds and peace of mind</li>",
+      `<ul class="list-disc pl-5"><li>Accurate preparation and e-filing to ensure maximum refunds and peace of mind</li></ul>`,
   },
   {
     icon: <TbCircleNumber2Filled className="text-green-500" />,
     title: "Business & Corporate Tax Filing",
     description:
-      "<li>Comprehensive business and corporate tax services to keep your business compliant and optimized.</li>",
+      `<ul class="list-disc pl-5"><li>Comprehensive business and corporate tax services to keep your business compliant and optimized.</li></ul>`,
   },
   {
     icon: <TbCircleNumber3Filled className="text-green-500" />,
     title: "Payroll Services",
     description:
-      "<li>Reliable payroll processing to ensure your employees are paid accurately and on time.</li>",
+      `<ul class="list-disc pl-5"><li>Reliable payroll processing to ensure your employees are paid accurately and on time.</li></ul>`,
   },
   {
     icon: <TbCircleNumber4Filled className="text-green-500" />,
     title: "Establishing a New Company",
     description:
-      "<li>End-to-end guidance to help you start your new business the right way.</li>",
+      `<ul class="list-disc pl-5"><li>End-to-end guidance to help you start your new business the right way.</li></ul>`,
   },
   {
     icon: <TbCircleNumber5Filled className="text-green-500" />,
     title: "General Business Services",
     description:
-      "<li>Support for your day-to-day business operations and financial needs.</li>",
+      `<ul class="list-disc pl-5"><li>Support for your day-to-day business operations and financial needs.</li></ul>`,
   },
   {
     icon: <TbCircleNumber6Filled className="text-green-500" />,
     title: "Bookkeeping Services",
     description:
-      "<li>Accurate and timely bookkeeping services to keep your financial records in order and financially efficient.</li>",
+      `<ul class="list-disc pl-5"><li>Accurate and timely bookkeeping services to keep your financial records in order and financially efficient.</li></ul>`,
   },
   {
     icon: <TbCircleNumber7Filled className="text-green-500" />,
