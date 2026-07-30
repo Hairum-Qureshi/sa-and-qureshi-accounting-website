@@ -17,37 +17,37 @@ const services: Service[] = [
     icon: <TbCircleNumber1Filled className="text-green-500" />,
     title: "Preparing and E-filing of Personal Tax Returns",
     description:
-      "Accurate preparation and e-filing to ensure maximum refunds and peace of mind.",
+      "<li>Accurate preparation and e-filing to ensure maximum refunds and peace of mind</li>",
   },
   {
     icon: <TbCircleNumber2Filled className="text-green-500" />,
     title: "Business & Corporate Tax Filing",
     description:
-      "Comprehensive business and corporate tax services to keep your business compliant, and optimized.",
+      "<li>Comprehensive business and corporate tax services to keep your business compliant and optimized.</li>",
   },
   {
     icon: <TbCircleNumber3Filled className="text-green-500" />,
     title: "Payroll Services",
     description:
-      "Reliable payroll processing to ensure your employees are paid accurately and on time.",
+      "<li>Reliable payroll processing to ensure your employees are paid accurately and on time.</li>",
   },
   {
     icon: <TbCircleNumber4Filled className="text-green-500" />,
     title: "Establishing a New Company",
     description:
-      "End-to-end guidance to help you start your new business the right way.",
+      "<li>End-to-end guidance to help you start your new business the right way.</li>",
   },
   {
     icon: <TbCircleNumber5Filled className="text-green-500" />,
     title: "General Business Services",
     description:
-      "Support for your day-to-day business operations and financial needs.",
+      "<li>Support for your day-to-day business operations and financial needs.</li>",
   },
   {
     icon: <TbCircleNumber6Filled className="text-green-500" />,
     title: "Bookkeeping Services",
     description:
-      "Accurate and timely bookkeeping services to keep your financial records in order and financially efficient.",
+      "<li>Accurate and timely bookkeeping services to keep your financial records in order and financially efficient.</li>",
   },
   {
     icon: <TbCircleNumber7Filled className="text-green-500" />,
