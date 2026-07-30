@@ -41,20 +41,20 @@ const services: Service[] = [
     icon: <TbCircleNumber5Filled className="text-green-500" />,
     title: "General Business Services",
     description:
-      "Support for your day-to-day business operations and finanical needs.",
+      "Support for your day-to-day business operations and financial needs.",
   },
   {
     icon: <TbCircleNumber6Filled className="text-green-500" />,
-    title: "Book Keeping Services",
+    title: "Bookkeeping Services",
     description:
-      "Accurate and timely bookkeeping services to keep your financial records in order, and financially efficient, along with streamlined visa and passport application processing.",
+      "Accurate and timely bookkeeping services to keep your financial records in order and financially efficient.",
   },
   {
     icon: <TbCircleNumber7Filled className="text-green-500" />,
     title: "Documents Processing",
     description: `<ul class="list-disc pl-5">
     <li>Fast and reliable processing of various documents.</li>
-    <li>Professional assistance with your immigration and passport processing.</li>
+    <li>Professional assistance along with streamlined immigration & passport application processing.</li>
     </ul>`,
   },
 ];
