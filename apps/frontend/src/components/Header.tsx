@@ -9,7 +9,7 @@ export default function Header() {
           PROFESSIONAL. RELIABLE. TRUSTED.
         </h3>
         <h1 className="text-6xl font-bold leading-14 text-green-900">
-          SA Accounting & Tax Solutions You Can Trust
+          SA Accounting & Qureshi's Tax Solutions You Can Trust
         </h1>
         <p className="text-lg mt-4 text-green-900">
           <span className="text-2xl font-bold text-green-700">
