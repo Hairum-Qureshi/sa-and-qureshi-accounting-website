@@ -17,7 +17,7 @@ const services: Service[] = [
     icon: <TbCircleNumber1Filled className="text-green-500" />,
     title: "Preparing and E-filing of Personal Tax Returns",
     description:
-      `<ul class="list-disc pl-5"><li>Accurate preparation and e-filing to ensure maximum refunds and peace of mind</li></ul>`,
+      `<ul class="list-disc pl-5"><li>Accurate preparation and e-filing to ensure maximum tax refund allowed by law and ensure peace of mind</li></ul>`,
   },
   {
     icon: <TbCircleNumber2Filled className="text-green-500" />,
