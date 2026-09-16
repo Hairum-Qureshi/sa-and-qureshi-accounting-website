@@ -39,7 +39,7 @@ export default function Header() {
             <span className="flex-row items-center mr-2">
               <FaCheckCircle className="text-green-500" />
             </span>
-            Personalized Services
+            Personalized Tax & Business Services
           </p>
           <p className="flex">
             <span className="flex-row items-center mr-2">
